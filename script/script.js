@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", function () {
         const username = document.getElementById("username").value.trim();
         const password = document.getElementById("password").value.trim();
 
-        // ✅ You can change these credentials
+        //credentials
         const validUsername = "admin";
         const validPassword = "admin";
 
@@ -21,7 +21,7 @@ document.addEventListener("DOMContentLoaded", function () {
             errorMessage.textContent = "⚠️ Invalid username or password. Please try again.";
             errorMessage.style.color = "red";
 
-            // 🔔 Show pop-up notification
+            // Show pop-up notification
             alert("Incorrect username or password!");
         }
     });

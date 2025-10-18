@@ -36,7 +36,8 @@ header {
 .logo-text {
     display: flex;
     flex-direction: column;
-    line-height: 1.2;
+    line-height: 1;
+    justify-content: center;
 }
 
 .logo-text h2 {
@@ -44,13 +45,16 @@ header {
     font-weight: 800;
     text-transform: uppercase;
     color: #ffffff;
+    margin: 0;
+    padding: 0;
 }
 
 .logo-text h6 {
     font-size: 13px;
     color: #dbe7ff;
     font-weight: 500;
-    margin-top: 2px;
+    margin: 4px 0 0 0;
+    padding: 0;
 }
 
 .nav-menu {
@@ -272,14 +276,14 @@ footer {
     object-fit: contain;
 }
 
-.footer-logo h3 {
+.footer-logo-text h3 {
     font-size: 26px;
     font-weight: 700;
     margin: 0;
     letter-spacing: 1px;
 }
 
-.footer-logo p {
+.footer-logo-text p {
     margin-top: 5px;
     font-size: 14px;
     opacity: 0.9;
